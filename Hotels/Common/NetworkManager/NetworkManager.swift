@@ -9,7 +9,7 @@ import UIKit
 
 class NetworkManager {
     
-    static let shared = NetworkManager()
+    static let shared = NetworkManager()  
     
     func getFromAPI<T: Decodable>(url: URL, completion: @escaping (T?) -> Void) {
         let request = URLRequest(url: url)
