@@ -9,7 +9,7 @@ import UIKit
 
 class CarouselImageCollectionView: UICollectionView {
     
-    private var images = [UIImage]()
+     var images = [UIImage]()
     
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         let layout = UICollectionViewFlowLayout()

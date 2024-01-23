@@ -58,30 +58,29 @@ class FirstTouristView: UIView {
     @objc func minimizeView() {
         if let action = doSomthing {
             action()
+        } else {
+            defaultAction()
         }
-//        } else {
-//            defaultAction()
-//        }
     }
 
-//    private func defaultAction() {
-//        currentSizeView.toggle()
-//
-//        let imageSize: UIImage?
-//        if currentSizeView {
-//            imageSize = R.Images.upArrow
-//            minimizeViewConstraints.isActive = false
-//            maximizeViewConstraints.isActive = true
-//            stackView.isHidden = false
-//
-//        } else {
-//            imageSize = R.Images.downArrow
-//            minimizeViewConstraints.isActive = true
-//            maximizeViewConstraints.isActive = false
-//            stackView.isHidden = true
-//        }
-//        touristButton.imgView.image = imageSize
-//    }
+    private func defaultAction() {
+        currentSizeView.toggle()
+
+        let imageSize: UIImage?
+        if currentSizeView {
+            imageSize = R.Images.upArrow
+            minimizeViewConstraints.isActive = false
+            maximizeViewConstraints.isActive = true
+            stackView.isHidden = false
+
+        } else {
+            imageSize = R.Images.downArrow
+            minimizeViewConstraints.isActive = true
+            maximizeViewConstraints.isActive = false
+            stackView.isHidden = true
+        }
+        touristButton.imgView.image = imageSize
+    }
 
     func setButtonImage(image: UIImage) {
         touristButton.imgView.image = image

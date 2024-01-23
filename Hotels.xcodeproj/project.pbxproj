@@ -46,6 +46,7 @@
 		0487A4D12B3D4BDE0034A556 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A4D02B3D4BDE0034A556 /* TagView.swift */; };
 		04A7CF812AB084BC00F29D12 /* ForwardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7CF802AB084BC00F29D12 /* ForwardButtonView.swift */; };
 		04AFFBF62B59047B00F9AC64 /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFBF52B59047B00F9AC64 /* Validators.swift */; };
+		04AFFBF82B594B7D00F9AC64 /* UITextField + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFBF72B594B7D00F9AC64 /* UITextField + Extension.swift */; };
 		04B4767A2AAF513400FBA7EF /* InfoButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B476792AAF513400FBA7EF /* InfoButtonsView.swift */; };
 		04B476802AAF67C600FBA7EF /* InfoButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4767F2AAF67C600FBA7EF /* InfoButtonCell.swift */; };
 		04F0A6BE2B442E3E003AB5D6 /* RatingNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0A6BD2B442E3E003AB5D6 /* RatingNameView.swift */; };
@@ -96,6 +97,7 @@
 		0487A4D02B3D4BDE0034A556 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		04A7CF802AB084BC00F29D12 /* ForwardButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardButtonView.swift; sourceTree = "<group>"; };
 		04AFFBF52B59047B00F9AC64 /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		04AFFBF72B594B7D00F9AC64 /* UITextField + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Extension.swift"; sourceTree = "<group>"; };
 		04B476792AAF513400FBA7EF /* InfoButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButtonsView.swift; sourceTree = "<group>"; };
 		04B4767F2AAF67C600FBA7EF /* InfoButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButtonCell.swift; sourceTree = "<group>"; };
 		04F0A6BD2B442E3E003AB5D6 /* RatingNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingNameView.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				047BC68A2AA9050500CC6935 /* UIImageView + Extension.swift */,
 				045F0DBD2B4E70140057F4E5 /* UIView + Extension.swift */,
 				045F0DBF2B4E76D90057F4E5 /* String.swift */,
+				04AFFBF72B594B7D00F9AC64 /* UITextField + Extension.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				045F0DC82B500C000057F4E5 /* TouristButton.swift in Sources */,
 				0487A4C82B3BF5250034A556 /* RoomsInfoCell.swift in Sources */,
 				04AFFBF62B59047B00F9AC64 /* Validators.swift in Sources */,
+				04AFFBF82B594B7D00F9AC64 /* UITextField + Extension.swift in Sources */,
 				045F0DBE2B4E70140057F4E5 /* UIView + Extension.swift in Sources */,
 				0410088A2B4C710700139AA3 /* ViewModelRooms.swift in Sources */,
 				047BC6892AA903F200CC6935 /* RatingView.swift in Sources */,

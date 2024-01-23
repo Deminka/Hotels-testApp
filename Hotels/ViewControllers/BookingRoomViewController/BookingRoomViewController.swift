@@ -168,6 +168,9 @@ extension BookingRoomViewController {
                                pasValidPeriod: firstTouristView.grayView6.textField.text) && email {
             self.coordinator?.openBookingResultVC()
         } else {
+            if infoAboutBuyerView.grayView1.textField.text == "" {
+                firstTouristView.grayView1.textField.backgroundColor = R.Colors.errorBackgroundColor
+            }
             if firstTouristView.grayView1.textField.text == "" {
                 firstTouristView.grayView1.textField.backgroundColor = R.Colors.errorBackgroundColor
             }
@@ -191,6 +194,7 @@ extension BookingRoomViewController {
 }
 
 extension BookingRoomViewController {
+    
     
     func bindViewModel() {
         

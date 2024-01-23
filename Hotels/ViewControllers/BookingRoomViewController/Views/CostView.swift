@@ -14,7 +14,7 @@ class CostView: UIView {
         stack.axis = .vertical
         stack.distribution = .equalSpacing
         stack.alignment = .leading
-        stack.spacing = 30
+        stack.spacing = 15
         return stack
     }()
     

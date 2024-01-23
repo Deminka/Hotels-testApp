@@ -14,6 +14,7 @@ class StackView: UIStackView {
         label.font = .locationTitleFont14()
         label.textColor = .tagLabelColor()
         label.textAlignment = .left
+        label.numberOfLines = 0
         return label
     }()
     
@@ -36,6 +37,7 @@ class StackView: UIStackView {
         spacing = 15
         
         addView()
+        setConstraints()
         customiseElements()
     }
     
@@ -48,6 +50,11 @@ extension StackView {
     private func addView() {
         addArrangedSubview(leftLabel)
         addArrangedSubview(rightLabel)
+    }
+    
+    private func setConstraints() {
+        
+//        leftLabel.widthAnchor.constraint(equalToConstant: 150).isActive = true
     }
     
     private func customiseElements() {

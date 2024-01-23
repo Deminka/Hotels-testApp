@@ -12,8 +12,7 @@ class BookingDetailsView: UIView {
     let verticalStackView: UIStackView = {
         let stack = UIStackView()
         stack.axis = .vertical
-        stack.alignment = .leading
-        stack.distribution = .fillProportionally
+        stack.alignment = .fill
         stack.spacing = 16
         return stack
     }()
