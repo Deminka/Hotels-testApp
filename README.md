@@ -1,4 +1,5 @@
 Test work. UIKot + MVVM + Coordinator
+
 <img width="477" alt="Снимок экрана 2024-01-19 в 09 02 49" src="https://github.com/Deminka/Hotels-testApp/assets/69207847/e7406ac0-7a5f-4632-956a-9e995439a45b">
 <img width="477" alt="Снимок экрана 2024-01-19 в 09 02 59" src="https://github.com/Deminka/Hotels-testApp/assets/69207847/893cf6a0-d926-4480-ab67-0bb9beca3bf3">
 <img width="477" alt="Снимок экрана 2024-01-19 в 09 03 07" src="https://github.com/Deminka/Hotels-testApp/assets/69207847/4c2c6aca-c213-4ea8-ba39-1f7a66ad0497">
